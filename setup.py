@@ -185,7 +185,7 @@ setup(
     ext_modules=ext_modules,
     tests_require=tests_require,
     extras_require={
-        'tests': tests_require,
+        'tests': [],
         'docs': [
             'sphinx >= 1.6.0',
             'sphinx_bootstrap_theme',
