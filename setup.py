@@ -167,7 +167,7 @@ pytest_runner = ['pytest-runner'] if needs_pytest else []
 
 # Finally call setup with the extension modules as defined above.
 setup(
-    name='lz4',
+    name='streaming-lz4',
     use_scm_version={
         'write_to': "lz4/version.py",
     },
@@ -180,7 +180,7 @@ setup(
     long_description=open('README.rst', 'r').read(),
     author='Jonathan Underwood',
     author_email='jonathan.underwood@gmail.com',
-    url='https://github.com/python-lz4/python-lz4',
+    url='https://github.com/nzcv/python-lz4',
     packages=packages,
     ext_modules=ext_modules,
     tests_require=tests_require,
