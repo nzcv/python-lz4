@@ -187,11 +187,8 @@ setup(
     extras_require={
         'tests': [],
         'docs': [
-            'sphinx >= 1.6.0',
-            'sphinx_bootstrap_theme',
         ],
         'flake8': [
-            'flake8',
         ]
     },
     classifiers=[
